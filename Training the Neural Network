@@ -1,0 +1,5 @@
+# Train the model
+model.fit(xs, ys, epochs=500)
+
+# Make a prediction
+print(model.predict([10.0]))
